@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    user-select: none;
+    font-family: 'Rock Salt', cursive;
+}
+.riscado{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    font-family: 'New Rocker';
+    margin: 100px 100px 30px;
+    font-size: 100px;
+    user-select: none;
+}
+#cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#barra{
+    color: white;
+    background-color: black;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    margin: 30px;
+    border-radius: 30px;
+}
+#par{
+    opacity: 0.2;
+    user-select: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
